@@ -1,0 +1,38 @@
+.social-links {
+  float: left;
+  width: 100px;
+  height: 100vh;
+  background: url("./../../static/img/social-links-bg.png") no-repeat;
+  background-color: #303841;
+  background-size: cover; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links div {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.social-links div:hover {
+    color: yellow;
+}
+
+.social-links__twitter {
+    background: url("./../../static/img/social/twitter.png") no-repeat;
+}
+
+.social-links__dribble {
+    background: url("./../../static/img/social/dribble.png") no-repeat;
+}
+
+.social-links__facebook {
+    background: url("./../../static/img/social/facebook.png") no-repeat;
+}
+
+.social-links__instagram {
+    background: url("./../../static/img/social/instagram.png") no-repeat;
+}

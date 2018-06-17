@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Andamar';
+    src: url('./../../../static/fonts/Andamar/Andamar.ttf');
+}
+
+.main-slide {
+    background: url('./../../../static/img/image.png') no-repeat 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.loading {
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.loading__line {
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    right: 0;
+    width: 35%;
+    height: 5px;
+    border-radius: 2px;
+    background-color: rgba(180, 162, 157, 0.5);
+    margin: 0 auto;
+}
+
+.loading__line_progress {
+    height: 100%;
+    width: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: inherit;
+}
+
+.loading__caption {
+    margin: 0 auto;
+    font-family: url('./../../../static/fonts/Andamar/Andamar Rough.ttf');
+    color: white;
+}

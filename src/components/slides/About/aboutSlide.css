@@ -1,0 +1,6 @@
+.about-slide {
+    background: url('./../../../static/img/about-page-bg.png') no-repeat 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}

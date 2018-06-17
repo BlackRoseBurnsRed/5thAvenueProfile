@@ -1,0 +1,75 @@
+.nav-footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+
+.nav-footer__navigation {
+    width: 100%;
+    height: 100px;
+    z-index: 100;
+    background: url("./../../static/img/social-links-bg.png") no-repeat;
+    background-size: cover;
+    background-color: #eeeeee;
+    overflow: visible;
+}
+
+.nav-footer__burger-btn {
+    flex: none;
+    background-color: #c4c4c4;
+    height: 120px;
+    width: 120px !important;
+    z-index: 200;
+}
+
+.footer-navigation-links {
+    list-style-type: none;
+    
+}
+
+.footer-navigation-links__link {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ADADAD;
+}
+
+.footer-navigation-links__link:first-child {
+    margin-right: 35px;
+}
+
+.footer-navigation-links__link:last-child {
+    margin-left: 35px;
+}
+
+.footer-navigation-links__link a {
+    text-decoration: none;
+    color: #ADADAD;
+}
+
+
+.footer-navigation-links__link a:hover {
+    color: #F6C90E;
+    text-decoration: underline;
+}
+
+.footer-navigation-links__link:first-child a,
+.footer-navigation-links__link:last-child a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-navigation-links__link:first-child a:hover,
+.footer-navigation-links__link:last-child a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.footer-navigation-links__link a.active {
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
