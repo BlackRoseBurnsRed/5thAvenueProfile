@@ -2,5 +2,80 @@
     background: url('./../../../static/img/about-page-bg.png') no-repeat 50% 50%;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-slide__left-column,
+.about-slide__right-column {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.about-slide__left-column {
+    padding-left: 80px;
+}
+
+.progress-line {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.load__line {
+    width: 60%;
+    height: 5px;
+    border-radius: 2px;
+    background-color: rgba(180, 162, 157, 0.5);
+}
+
+.load__line_progress {
+    height: 100%;
+    width: 30%;
+    background-color: rgb(218, 233, 17);
+    border-radius: inherit;
+}
+
+.slide_number {
+    color: white;
+    font-size: 20px;
+}
+
+.about-slide_text {
+    margin-top: 45px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color:rgba(255, 255, 255, 0.06);
+    color: white;
+    width: 60%;
+    margin: 70px auto;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
+    /*-webkit-filter: blur(5px);
+     -moz-filter: blur(5px);
+       -o-filter: blur(5px);
+      -ms-filter: blur(5px);
+          filter: blur(5px);*/
+}
+
+.about-slide__right-column_eye {
+    margin-top: 70px;
+}
+
+.abount-slide__title {
+    color: white;
+    font-size: 50px;
+}
+
+.about-slide__big-logo_yellow {
+    display: none;
+    position: absolute;
+    left: -20px;
+    height: 150px;
+    width: 100px;
+    z-index: 10;
 }

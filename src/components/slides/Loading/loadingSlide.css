@@ -3,7 +3,7 @@
     src: url('./../../../static/fonts/Andamar/Andamar.ttf');
 }
 
-.main-slide {
+.loading-slide {
     background: url('./../../../static/img/image.png') no-repeat 50% 50%;
     background-size: cover;
     width: 100%;

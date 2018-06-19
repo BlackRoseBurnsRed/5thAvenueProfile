@@ -1,7 +1,5 @@
 .social-links {
-  float: left;
   width: 100px;
-  height: 100vh;
   background: url("./../../static/img/social-links-bg.png") no-repeat;
   background-color: #303841;
   background-size: cover; 
@@ -9,6 +7,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: transform 0.5s;
+  z-index: 100;
 }
 
 .social-links div {

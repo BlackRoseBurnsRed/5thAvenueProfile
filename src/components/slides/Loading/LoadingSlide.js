@@ -15,18 +15,20 @@ class MainSlide extends Component {
 				clearInterval(intervalId)
 				$('.loading__line').fadeOut(1000)
 				$('.loading__caption').fadeIn(1500)
+				debugger
+				this.props.endLoading();
 			} else {
 				$progress.css({
 					width: width + loadingStep + '%',
 				})
 			}
 			
-		}, 250);
+		}.bind(this), 250);
 	}
 
 	render () {
 		return (
-			<div className="main-slide">
+			<div className="loading-slide">
 				<div className="loading">
 					<div className="loading__line">
 						<div className="loading__line_progress"></div>	
