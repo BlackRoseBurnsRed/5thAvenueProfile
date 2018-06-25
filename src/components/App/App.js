@@ -12,9 +12,8 @@ import './app.css'
 class App extends Component {
     componentDidMount() {
         $('.slide').fadeOut(0);
-        //$('.about-slide').fadeIn(500);
-        $('.slide').height($('.wrapper').height() + 20);
-        $('.social-links').height($('.wrapper').height() + 20);
+        $('.slide').height($('.wrapper').height());
+        $('.social-links').height($('.wrapper').height());
     }
 
     endLoading() {

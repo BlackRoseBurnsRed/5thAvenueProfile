@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import $ from 'jquery'
+import SlidesPreview from './SlidesPreview/SlidesPreview.js'
 
 
 import './navFooter.css'
@@ -37,6 +38,7 @@ class SocialLinks extends Component {
                         <li className='footer-navigation-links__link'><a href='#'>NEXT</a></li>
                     </ul>
                 </div>
+                <SlidesPreview />
             </div>
 		)
 	}
